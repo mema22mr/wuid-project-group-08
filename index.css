@@ -1,18 +1,23 @@
-@media screen and (max-width: 391px) {
+html,
+body {
+  margin: 0px;
+}
+@media screen and (max-width: 391px) /*iphone 12 pro*/ {
   header {
     display: flex;
-    gap: 0 px;
+    z-index: 100;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 95;
     background-color: #d8e8dd;
-    position: sticky;
+    position: fixed;
+    top: 0px;
     width: 100vw;
   }
   .header {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .logo {
     flex-grow: 2;
@@ -28,29 +33,119 @@
   }
   #profileIcon {
     width: 25px;
-    margin: 5px;
   }
   #likedIcon {
     width: 25px;
-    margin: 5px;
   }
   #shoppingBagIcon {
     width: 25px;
-    margin: 5px;
+
     margin-right: 10px;
   }
-}
-.menu {
-  height: 749px;
-  width: 100vw;
-  margin: 0px;
-  background-color: #d8e8dd;
-  position: absolute;
-  overflow: hidden;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 20px;
+
+  /*MENU*/
+  .menu {
+    height: 749px;
+    width: 100vw;
+    margin: 0px;
+    background-color: #d8e8dd;
+    position: absolute;
+    overflow: hidden;
+    color: #6c8875;
+    line-height: 35px;
+    z-index: 90;
+    display: none;
+  }
+  .menulist {
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  li:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  /*LAYOUT MAIN PAGE*/
+  .contentMainPage {
+    overflow-y: scroll;
+  }
+  .content1 /*top big image*/ {
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+  }
+  #topImage {
+    width: 110vw;
+    position: relative;
+    bottom: 110px;
+  }
+
+  .content2 /*quote*/ {
+    height: 150px;
+    color: #6c8875;
+    text-align: center;
+    text-justify: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+
+  .content3 /*featured products*/ {
+    height: 223px;
+    width: 100vw;
+    background-color: #d8e8dd;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+  h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .content4 /*advertisement section*/ {
+    height: 344px;
+    width: 100vw;
+    background-color: aqua;
+  }
+
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+
+  #regionIcon {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  #instagramIcon {
+    width: 35px;
+    margin-left: 75px;
+    margin-right: 5px;
+  }
+  #mailIcon {
+    width: 35px;
+    margin-right: 5px;
+  }
+  h8 {
+    font-size: 20px;
+  }
 }
