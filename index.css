@@ -106,9 +106,19 @@ body {
     height: 223px;
     width: 100vw;
     background-color: #d8e8dd;
+    padding-top: 30px;
+    color: white;
+  }
+  .featuredProductsTitle {
+    margin: 0px;
+  }
+  .featuredProductsImages {
     display: flex;
     flex-wrap: wrap;
-    color: white;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 128px;
   }
   h6 {
     font-size: 30px;
@@ -147,5 +157,178 @@ body {
   }
   h8 {
     font-size: 20px;
+  }
+}
+
+/*FOR COMPUTER*/
+@media screen and (min-width: 391px) /*computer*/ {
+  header {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 120;
+    background-color: #d8e8dd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    flex-grow: 2;
+    text-align: left;
+    align-self: flex-end;
+    margin-left: 50px;
+  }
+  #hamburgerMenuIcon {
+    width: 50px;
+    margin: 2px;
+    align-self: center;
+    margin-left: 10px;
+    display: none;
+  }
+  #profileIcon {
+    width: 35px;
+  }
+  #likedIcon {
+    width: 35px;
+  }
+  #shoppingBagIcon {
+    width: 35px;
+    margin-right: 20px;
+  }
+
+  /*MENU*/
+  .menu {
+    width: 30vw;
+    margin-top: 60px;
+    background-color: #d8e8dd;
+    position: absolute;
+    overflow: hidden;
+    color: #6c8875;
+    line-height: 20px;
+    z-index: 90;
+    position: fixed;
+  }
+  .menulist {
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  li:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  /*CONTENT MAIN PAGE*/
+  .contentMainPage {
+    margin-right: 0px;
+  }
+
+  .content1 /*top big image*/ {
+    width: 70vw;
+    height: 450px;
+    overflow: hidden;
+    margin-left: 30vw;
+  }
+  #topImage {
+    width: 70vw;
+    position: relative;
+    bottom: 270px;
+  }
+
+  .content2 /*quote*/ {
+    height: 300px;
+
+    width: fit-content;
+    color: #6c8875;
+    text-align: center;
+    text-justify: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-left: 30vw;
+  }
+  h5 {
+    font-size: 30px;
+  }
+
+  .content3 /*featured products*/ {
+    height: 389px;
+    width: 70vw;
+    background-color: #d8e8dd;
+    padding-top: 30px;
+    color: white;
+    margin-left: 30vw;
+  }
+  .featuredProductsTitle {
+    margin: 0px;
+    font-size: 50px;
+  }
+  .featuredProductsImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 128px;
+  }
+  h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .content4 /*advertisement section*/ {
+    height: 920px;
+
+    background-color: aqua;
+    margin-left: 30vw;
+    width: 70vw;
+  }
+
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    margin-left: 30vw;
+  }
+
+  #regionIcon {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  #instagramIcon {
+    width: 60px;
+    padding-left: 450px;
+  }
+  #mailIcon {
+    width: 60px;
+    margin-right: 5px;
+  }
+  h7 {
+    font-size: 20px;
+  }
+  h8 {
+    font-size: 25px;
   }
 }
