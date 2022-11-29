@@ -54,7 +54,7 @@ body {
     overflow: hidden;
     color: #6c8875;
     line-height: 35px;
-    z-index: 90;
+    z-index: 10000;
     display: none;
   }
   .menulist {
@@ -88,7 +88,7 @@ body {
     overflow: hidden;
   }
   .back {
-    position: absolute;
+    position: fixed;
     top: 60px;
     left: 15px;
     z-index: 100;
@@ -119,5 +119,67 @@ body {
     top: 80px;
     position: relative;
     background-color: rgb(223, 213, 194);
+  }
+
+  .serumItems {
+    background-color: rgb(66, 102, 177);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: aqua;
+  }
+  #serum1 {
+    width: 173px;
+    height: 334px;
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  #serum2 {
+    width: 173px;
+    height: 334px;
+    background-color: rgb(173, 30, 30);
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #serum3 {
+    width: 173px;
+    height: 334px;
+    background-color: rgb(61, 201, 22);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+
+  #regionIcon {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  #instagramIcon {
+    width: 35px;
+    margin-left: 75px;
+    margin-right: 5px;
+  }
+  #mailIcon {
+    width: 35px;
+    margin-right: 5px;
+  }
+  h8 {
+    font-size: 20px;
   }
 }

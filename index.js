@@ -4,6 +4,7 @@ window.addEventListener("load", function () {
 
   /*hamburger menu pressed that
  will make the menu appear */
+  /**why do i have to press 2 times? */
   hamburgerMenuIcon.addEventListener("click", function () {
     if (menu.style.display == "none") {
       menu.style.display = "block";

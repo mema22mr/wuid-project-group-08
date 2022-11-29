@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="serum.css" />
-    <script src="serum.js" defer></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <header>
       <!-- make another div with the whole menu and then javascript that it will be displayed if the 
-          hamburger menu is clicked on for phone, and that it should be located to the left on computers-->
+        hamburger menu is clicked on for phone, and that it should be located to the left on computers-->
       <!--this is for the hamburger menu-->
 
       <img
         src="images/hamburger menu.png"
         alt="hamburger
-          menu"
+        menu"
         id="hamburgerMenuIcon"
         class="header"
       />
@@ -36,12 +36,13 @@
         id="profileIcon"
         class="header"
       />
-      <img
-        src="images/shopping_bag.png"
-        alt="shopping bag"
-        id="shoppingBagIcon"
-        class="header"
-      />
+      <a href="shopping_bag.html"
+        ><img
+          src="images/shopping_bag.png"
+          alt="shopping bag"
+          id="shoppingBagIcon"
+          class="header"
+      /></a>
     </header>
 
     <div class="menu">
@@ -51,14 +52,14 @@
         <ul>
           <h4>Face</h4>
         </ul>
-        <li><!--link to every page-->Serum</li>
+        <li><a href="serum.html">Serum</a></li>
         <li>Cleanser</li>
         <li>Moisturizor</li>
-        <li>Toner</li>
+        <li><a href="toner.html">Toner</a></li>
         <ul>
           <h4>Body</h4>
         </ul>
-        <li>Body Lotion</li>
+        <li><a href="body_lotion.html">Body Lotion</a></li>
         <li>Body Scrub</li>
         <li>Body Wash</li>
         <li>Hand Cream</li>
@@ -70,7 +71,7 @@
       <div class="content1">
         <!--first image and text-->
         <div class="back">
-          <h6>Main page</h6>
+          <a href="index.html"><h6>Main page</h6></a>
         </div>
         <div id="serumText">
           <h5>Serum</h5>
@@ -82,6 +83,42 @@
         </div>
         <div id="serumImage"></div>
       </div>
+      <div class="serumItems">
+        <div id="serum1">
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+        <div id="serum2">
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+        <div id="serum3">
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+      </div>
     </div>
+    <footer>
+      <img
+        src="images/region_icon.png"
+        alt="region icon"
+        id="regionIcon"
+        class="footer"
+      />
+      <h7>
+        Region <br />
+        Sweden
+      </h7>
+      <img
+        src="images/instagram_icon.png"
+        alt="instagram"
+        id="instagramIcon"
+        class="footer"
+      />
+      <img
+        src="images/mail_icon.png"
+        alt="mail icon"
+        id="mailIcon"
+        class="footer"
+      />
+      <h8>Contact Us!</h8>
+    </footer>
   </body>
 </html>
