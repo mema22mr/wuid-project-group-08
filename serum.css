@@ -183,3 +183,189 @@ body {
     font-size: 20px;
   }
 }
+
+/*FOR COMPUTER*/
+@media screen and (min-width: 391px) /*computer*/ {
+  header {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 120;
+    background-color: #d8e8dd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    flex-grow: 2;
+    text-align: left;
+    align-self: flex-end;
+    margin-left: 50px;
+  }
+  #hamburgerMenuIcon {
+    width: 50px;
+    margin: 2px;
+    align-self: center;
+    margin-left: 10px;
+    display: none;
+  }
+  #profileIcon {
+    width: 35px;
+  }
+  #likedIcon {
+    width: 35px;
+  }
+  #shoppingBagIcon {
+    width: 35px;
+    margin-right: 20px;
+  }
+
+  /*MENU*/
+  .menu {
+    width: 20vw;
+    height: 600px;
+    margin-top: 60px;
+    background-color: #d8e8dd;
+    position: absolute;
+    overflow: hidden;
+    color: #6c8875;
+    line-height: 20px;
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+  }
+  .menulist {
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  li:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  /*content serum page*/
+  .contentSerumPage {
+    overflow-y: scroll;
+    margin-right: 0px;
+  }
+  .content1 /*top big image*/ {
+    width: 80vw;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 20vw;
+  }
+
+  #serumText {
+    position: absolute;
+    z-index: 90;
+    top: 270px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  #serumImage {
+    width: 100vw;
+    height: 500px;
+    top: 80px;
+    position: relative;
+    background-color: rgb(223, 213, 194);
+  }
+  h5 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    line-height: 50px;
+    margin: 0px;
+  }
+  h6 {
+    color: #6c8875;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .back {
+    position: fixed;
+    margin-top: 55px;
+    left: 35px;
+    z-index: 100;
+    margin-left: 20vw;
+  }
+
+  /*ITEMS*/
+  .serumItems {
+    background-color: white;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    color: aqua;
+    margin-left: 20vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #serum1 {
+    width: 173px;
+    height: 334px;
+    background-color: black;
+  }
+  #serum2 {
+    width: 173px;
+    height: 334px;
+    background-color: rgb(173, 30, 30);
+  }
+  #serum3 {
+    width: 173px;
+    height: 334px;
+    background-color: rgb(61, 201, 22);
+  }
+  /*FOOTER*/
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    margin-left: 20vw;
+  }
+
+  #regionIcon {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #instagramIcon {
+    width: 60px;
+    padding-left: 580px;
+  }
+  #mailIcon {
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  h7 {
+    font-size: 20px;
+  }
+  h8 {
+    font-size: 25px;
+  }
+}

@@ -205,15 +205,16 @@ body {
 
   /*MENU*/
   .menu {
-    width: 30vw;
+    width: 20vw;
     margin-top: 60px;
     background-color: #d8e8dd;
     position: absolute;
     overflow: hidden;
     color: #6c8875;
     line-height: 20px;
-    z-index: 90;
+    z-index: 99;
     position: fixed;
+    bottom: 0px;
   }
   .menulist {
     padding-left: 50px;
@@ -242,13 +243,13 @@ body {
   }
 
   .content1 /*top big image*/ {
-    width: 70vw;
+    width: 80vw;
     height: 450px;
     overflow: hidden;
-    margin-left: 30vw;
+    margin-left: 20vw;
   }
   #topImage {
-    width: 70vw;
+    width: 80vw;
     position: relative;
     bottom: 270px;
   }
@@ -260,10 +261,10 @@ body {
     color: #6c8875;
     text-align: center;
     text-justify: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-top: 20px;
-    margin-left: 30vw;
+    margin-left: 20vw;
   }
   h5 {
     font-size: 30px;
@@ -271,11 +272,11 @@ body {
 
   .content3 /*featured products*/ {
     height: 389px;
-    width: 70vw;
+    width: 80vw;
     background-color: #d8e8dd;
     padding-top: 30px;
     color: white;
-    margin-left: 30vw;
+    margin-left: 20vw;
   }
   .featuredProductsTitle {
     margin: 0px;
@@ -298,33 +299,34 @@ body {
     height: 920px;
 
     background-color: aqua;
-    margin-left: 30vw;
-    width: 70vw;
+    margin-left: 20vw;
+    width: 80vw;
   }
 
   footer {
     background-color: #d8e8dd;
     height: 91px;
-    width: 70vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     color: white;
-    margin-left: 30vw;
+    margin-left: 20vw;
   }
 
   #regionIcon {
     width: 60px;
     margin-left: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
   }
   #instagramIcon {
     width: 60px;
-    padding-left: 450px;
+    padding-left: 580px;
   }
   #mailIcon {
     width: 60px;
     margin-right: 5px;
+    margin-left: 10px;
   }
   h7 {
     font-size: 20px;
