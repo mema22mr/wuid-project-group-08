@@ -45,9 +45,10 @@ body {
 
   /*MENU*/
   .menu {
-    height: 749px;
+    height: 785px;
     width: 100vw;
     margin: 0px;
+    margin-top: 80px;
     background-color: #d8e8dd;
     position: absolute;
     overflow: hidden;

@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0px;
+}
+@media screen and (max-width: 391px) /*iphone 12 pro*/ {
+  header {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 95;
+    background-color: #d8e8dd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    flex-grow: 2;
+    text-align: center;
+
+    align-self: flex-end;
+  }
+  #hamburgerMenuIcon {
+    width: 50px;
+    margin: 2px;
+    align-self: center;
+    margin-left: 10px;
+  }
+  #profileIcon {
+    width: 25px;
+  }
+  #likedIcon {
+    width: 25px;
+  }
+  #shoppingBagIcon {
+    width: 25px;
+
+    margin-right: 10px;
+  }
+
+  /*MENU*/
+  .menu {
+    height: 785px;
+    width: 100vw;
+    margin: 0px;
+    margin-top: 80px;
+    background-color: #d8e8dd;
+    position: absolute;
+    overflow: hidden;
+    color: #6c8875;
+    line-height: 35px;
+    z-index: 90;
+    display: none;
+  }
+  .menulist {
+    padding-left: 50px;
+    list-style-type: none;
+  }
+  li:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3:hover {
+    background-color: #6c8875;
+    color: white;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  /*LAYOUT SERUM PAGE*/
+  .contentSerumPage {
+    overflow-y: scroll;
+  }
+  .content1 /*top big image*/ {
+    width: 100vw;
+    height: 328px;
+    overflow: hidden;
+  }
+  .back {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    z-index: 100;
+    margin: 0px;
+  }
+  #serumText {
+    position: absolute;
+    z-index: 90;
+    top: 185px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  h5 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 1px;
+    margin: 0px;
+  }
+  h6 {
+    color: #6c8875;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  #serumImage {
+    width: 100vw;
+    height: 300px;
+    top: 80px;
+    position: relative;
+    background-color: rgb(223, 213, 194);
+  }
+}
