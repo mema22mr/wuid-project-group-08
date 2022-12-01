@@ -78,8 +78,8 @@ body {
     font-size: 20px;
   }
 
-  /*LAYOUT SERUM PAGE*/
-  .contentSerumPage {
+  /*LAYOUT BODY LOTION PAGE*/
+  .contentBlPage {
     overflow-y: scroll;
   }
   .content1 /*top big image*/ {
@@ -94,7 +94,7 @@ body {
     z-index: 100;
     margin: 0px;
   }
-  #serumText {
+  #blText {
     position: absolute;
     z-index: 90;
     top: 185px;
@@ -113,7 +113,7 @@ body {
     line-height: 18px;
   }
 
-  #serumImage {
+  #blImage {
     width: 100vw;
     height: 300px;
     top: 80px;
@@ -121,7 +121,7 @@ body {
     background-color: rgb(223, 213, 194);
   }
 
-  .serumItems {
+  .blItems {
     background-color: white;
     width: 100vw;
     height: fit-content;
@@ -131,25 +131,25 @@ body {
     gap: 70px;
     color: #6c8875;
   }
-  .serumItemsImages {
+  .blItemsImages {
     width: 173px;
     height: 334px;
     overflow: hidden;
   }
-  #serum1 {
+  #bl1 {
     width: 173px;
     height: 334px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
   }
-  #serum2 {
+  #bl2 {
     width: 173px;
     height: 334px;
     margin-left: 40px;
     margin-right: 40px;
   }
-  #serum3 {
+  #bl3 {
     width: 173px;
     height: 334px;
     margin-left: 40px;
@@ -242,7 +242,7 @@ body {
     position: fixed;
     top: 0px;
   }
-  #serumOnClick {
+  #bodylotionOnClick {
     background-color: #6c8875;
     color: white;
   }
@@ -267,8 +267,8 @@ body {
     font-size: 20px;
   }
 
-  /*content serum page*/
-  .contentSerumPage {
+  /*content bodylotion page*/
+  .contentBlPage {
     overflow-y: scroll;
     margin-right: 0px;
   }
@@ -279,14 +279,14 @@ body {
     margin-left: 20vw;
   }
 
-  #serumText {
+  #blText {
     position: absolute;
     z-index: 90;
     top: 270px;
     padding-left: 45px;
     padding-right: 45px;
   }
-  #serumImage {
+  #blImage {
     width: 100vw;
     height: 500px;
     top: 80px;
@@ -314,9 +314,8 @@ body {
   a {
     text-decoration: none;
   }
-
   /*ITEMS*/
-  .serumItems {
+  .blItems {
     background-color: white;
     width: 80vw;
     height: auto;
@@ -329,22 +328,22 @@ body {
     padding-top: 30px;
     padding-bottom: 100px;
   }
-  .serumItemsImages {
+  .blItemsImages {
     width: 173px;
     height: 334px;
     overflow: hidden;
   }
-  #serum1 {
+  #bl1 {
     width: 173px;
     height: 334px;
   }
 
-  #serum2 {
+  #bl2 {
     width: 173px;
     height: 334px;
     background-color: rgb(173, 30, 30);
   }
-  #serum3 {
+  #bl3 {
     width: 173px;
     height: 334px;
     background-color: rgb(61, 201, 22);

@@ -257,7 +257,6 @@ body {
 
   .content2 /*quote*/ {
     height: 300px;
-
     width: fit-content;
     color: #6c8875;
     text-align: center;
@@ -323,26 +322,32 @@ body {
     background-color: #b8cabe;
     width: 232px;
     height: 65px;
+    margin: auto;
   }
   h10 {
     font-size: 32px;
     text-align: center;
     text-justify: center;
+    line-height: 65px;
   }
   .seasonalItem2 {
     width: 40vw;
     height: 460px;
-    background-color: rgb(143, 99, 43);
+    background-image: url("ai test2.jpg");
   }
+
   .seasonalItem3 {
     width: 40vw;
     height: 460px;
-    background-color: rgb(45, 183, 178);
+    background-image: url("ai test2.jpg");
   }
   .seasonalItem4 {
     width: 40vw;
     height: 460px;
-    background-color: rgb(36, 202, 36);
+    background-color: #cadbcf;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
   }
 
   footer {

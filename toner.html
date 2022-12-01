@@ -5,8 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="toner.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
-    toner
+    <header>
+      <!-- make another div with the whole menu and then javascript that it will be displayed if the 
+        hamburger menu is clicked on for phone, and that it should be located to the left on computers-->
+      <!--this is for the hamburger menu-->
+
+      <img
+        src="images/hamburger menu.png"
+        alt="hamburger
+        menu"
+        id="hamburgerMenuIcon"
+        class="header"
+      />
+
+      <h1 class="logo">logo</h1>
+
+      <img
+        src="images/favorite_filled_small.png"
+        alt="favorites"
+        id="likedIcon"
+        class="header"
+      />
+      <img
+        src="images/profile.png"
+        alt="profile"
+        id="profileIcon"
+        class="header"
+      />
+      <a href="shopping_bag.html"
+        ><img
+          src="images/shopping_bag.png"
+          alt="shopping bag"
+          id="shoppingBagIcon"
+          class="header"
+      /></a>
+    </header>
+    <!--MENU-->
+    <div class="menu">
+      <h3>On Sale</h3>
+      <h3>Popular Products</h3>
+      <ul class="menulist">
+        <ul>
+          <h4>Face</h4>
+        </ul>
+        <li id="serumOnClick">Serum</li>
+        <li>Cleanser</li>
+        <li>Moisturizor</li>
+
+        <li id="tonerOnClick">Toner</li>
+        <ul>
+          <h4>Body</h4>
+        </ul>
+
+        <li id="bodylotionOnClick">Body Lotion</li>
+        <li>Body Scrub</li>
+        <li>Body Wash</li>
+        <li>Hand Cream</li>
+      </ul>
+      <h3>About Us</h3>
+      <h3>Contact info</h3>
+    </div>
+
+    <div class="contentTonerPage">
+      <div class="content1">
+        <!--first image and text-->
+        <div class="back">
+          <a href="index.html"><h6>Main page</h6></a>
+        </div>
+        <div id="tonerText">
+          <h5>Toner</h5>
+          <h6>
+            A serum’s main purpose is to deliver specialized active ingredients
+            to your skin in concentrated amounts. They absorb quickly into your
+            skin, making them an excellent next step after cleansing.
+          </h6>
+        </div>
+        <div id="tonerImage"></div>
+      </div>
+      <div class="tonerItems">
+        <div id="toner1">
+          <img
+            src="ai test2.jpg"
+            alt="toner image 1"
+            class="tonerItemsImages"
+          />
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+        <div id="toner2">
+          <img
+            src="ai test2.jpg"
+            alt="toner image 2"
+            class="tonerItemsImages"
+          />
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+        <div id="toner3">
+          <img
+            src="ai test2.jpg"
+            alt="toner image 3"
+            class="tonerItemsImages"
+          />
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+        <div id="toner4">
+          <img
+            src="ai test2.jpg"
+            alt="toner image 4"
+            class="tonerItemsImages"
+          />
+          <h7>Cleansing serum AHA 30% BHA 2% peeling solution</h7>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img
+        src="images/region_icon.png"
+        alt="region icon"
+        id="regionIcon"
+        class="footer"
+      />
+      <h7>
+        Region <br />
+        Sweden
+      </h7>
+      <img
+        src="images/instagram_icon.png"
+        alt="instagram"
+        id="instagramIcon"
+        class="footer"
+      />
+      <img
+        src="images/mail_icon.png"
+        alt="mail icon"
+        id="mailIcon"
+        class="footer"
+      />
+      <h8>Contact Us!</h8>
+    </footer>
   </body>
 </html>
