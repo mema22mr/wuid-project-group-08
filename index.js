@@ -3,7 +3,9 @@ window.addEventListener("load", function () {
   const hamburgerMenuIcon = document.querySelector("#hamburgerMenuIcon");
   const serumOnClick = document.querySelector("#serumOnClick");
   const tonerOnClick = document.querySelector("#tonerOnClick");
-  const bodylotionOnClick = this.document.querySelector("#bodylotionOnClick");
+  const bodylotionOnClick = document.querySelector("#bodylotionOnClick");
+  const shoppingBagIcon = document.querySelector("#shoppingBagIcon");
+  const shoppingBag = document.querySelector(".shoppingBag");
   /*hamburger menu pressed that
  will make the menu appear */
   /**why do i have to press 2 times? */
@@ -25,5 +27,13 @@ window.addEventListener("load", function () {
 
   bodylotionOnClick.addEventListener("click", function () {
     window.location.assign("body_lotion.html");
+  });
+
+  shoppingBagIcon.addEventListener("click", function () {
+    if (shoppingBag.style.display == "none") {
+      shoppingBag.style.display = "block";
+    } else {
+      shoppingBag.style.display = "none";
+    }
   });
 });
