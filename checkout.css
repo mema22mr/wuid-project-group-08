@@ -1,0 +1,171 @@
+html,
+body {
+  margin: 0px;
+}
+@media screen and (max-width: 391px) /*iphone 12 pro*/ {
+  header {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #d8e8dd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    flex-grow: 2;
+    margin-left: 10px;
+    width: 100px;
+  }
+  #logo {
+    height: 37px;
+    margin-left: 100px;
+    padding-top: 30px;
+  }
+  /*content*/
+  .content {
+    position: relative;
+    top: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .checkout {
+    text-align: center;
+    font-size: 50px;
+    color: #6c8875;
+    position: relative;
+    top: -30px;
+  }
+  h6 {
+    color: #7aad8c;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+
+  #regionIcon {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  #instagramIcon {
+    width: 35px;
+    margin-left: 75px;
+    margin-right: 5px;
+  }
+  #mailIcon {
+    width: 35px;
+    margin-right: 5px;
+  }
+  h8 {
+    font-size: 20px;
+  }
+}
+/*FOR COMPUTER*/
+@media screen and (min-width: 391px) /*computer*/ {
+  header {
+    display: flex;
+    z-index: 100;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #d8e8dd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo {
+    flex-grow: 2;
+    margin-top: 0px;
+  }
+  #logo {
+    width: 114px;
+    margin-left: 50px;
+  }
+  /*content*/
+  .content {
+    position: relative;
+    top: 70px;
+  }
+  .checkout {
+    text-align: center;
+    font-size: 50px;
+    color: #6c8875;
+  }
+  h6 {
+    color: #7aad8c;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  .back {
+    position: fixed;
+    margin-top: -130px;
+    left: 0px;
+    z-index: 100;
+    margin-left: 0vw;
+  }
+  a {
+    text-decoration: none;
+  }
+  /*FOOTER*/
+  footer {
+    background-color: #d8e8dd;
+    height: 91px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+
+  #regionIcon {
+    width: 60px;
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+  #instagramIcon {
+    width: 60px;
+    padding-left: 660px;
+  }
+  #mailIcon {
+    width: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  h7 {
+    font-size: 20px;
+  }
+  h8 {
+    font-size: 25px;
+  }
+}
