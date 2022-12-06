@@ -55,6 +55,93 @@ body {
   h1 {
     font-size: 50px;
   }
+
+  /*content*/
+  .content {
+    position: relative;
+    top: 170px;
+  }
+  .checkout {
+    text-align: center;
+    font-size: 50px;
+    color: #6c8875;
+  }
+  h6 {
+    color: #6c8875;
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .back {
+    position: fixed;
+    margin-top: -120px;
+    left: 10px;
+    z-index: 100;
+    margin-left: 0vw;
+  }
+  a {
+    text-decoration: none;
+  }
+  .form {
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input {
+    border-width: 0px;
+    background-color: #d8e8dd;
+  }
+  .name {
+    width: 320px;
+  }
+  .other {
+    width: 320px;
+    justify-content: center;
+  }
+  #name {
+    width: 154px;
+    height: 30px;
+  }
+  #surname {
+    width: 154px;
+    height: 30px;
+  }
+  #street {
+    width: 320px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  #city {
+    width: 320px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  #email {
+    width: 320px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 600px;
+    height: 70px;
+    justify-self: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #d8e8dd;
+    border-width: 0px;
+    color: white;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /*footer*/
   footer {
     background-color: #d8e8dd;
     height: 91px;
@@ -63,6 +150,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     color: white;
+    position: relative;
+    top: 440px;
   }
 
   #regionIcon {
@@ -83,6 +172,7 @@ body {
     font-size: 20px;
   }
 }
+
 /*FOR COMPUTER*/
 @media screen and (min-width: 391px) /*computer*/ {
   header {
@@ -112,16 +202,17 @@ body {
   /*content*/
   .content {
     position: relative;
-    top: 70px;
-    height: 100vh;
+    top: 130px;
+    height: fit-content;
+    margin-bottom: 150px;
   }
   .checkout {
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     color: #6c8875;
   }
   h6 {
-    color: #7aad8c;
+    color: #6c8875;
     font-size: 35px;
     line-height: 35px;
   }
@@ -146,7 +237,7 @@ body {
     justify-content: center;
     gap: 10px;
     position: relative;
-    top: -30px;
+    top: 50px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -186,7 +277,7 @@ body {
     margin-bottom: 10px;
   }
   button {
-    width: 300px;
+    width: 350px;
     height: 70px;
     justify-self: center;
     margin-left: 150px;

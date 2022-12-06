@@ -133,7 +133,56 @@ body {
   .content4 /*advertisement section*/ {
     height: 344px;
     width: 100vw;
-    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .seasonalItem1 {
+    width: 50vw;
+    height: 172px;
+    background-color: #cadbcf;
+    align-items: center;
+    text-align: center;
+  }
+
+  h9 {
+    font-size: 32px;
+    position: relative;
+    top: 40px;
+  }
+  .readMoreButton {
+    position: relative;
+    top: 59px;
+    background-color: #b8cabe;
+    width: 86px;
+    height: 25px;
+    margin: auto;
+  }
+  h10 {
+    font-size: 13px;
+    text-align: center;
+    text-justify: center;
+    line-height: 25px;
+  }
+  .seasonalItem2 {
+    width: 50vw;
+    height: 172px;
+    background-image: url("ai test2.jpg");
+  }
+
+  .seasonalItem3 {
+    width: 50vw;
+    height: 172px;
+    background-image: url("ai test2.jpg");
+  }
+  .seasonalItem4 {
+    width: 50vw;
+    height: 172px;
+    background-color: #cadbcf;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
   }
 
   /* shopping bag*/

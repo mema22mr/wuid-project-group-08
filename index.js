@@ -8,6 +8,7 @@ window.addEventListener("load", function () {
   const shoppingBag = document.querySelector(".shoppingBag");
   const checkout = document.querySelector(".checkout");
   const chosenSerum = document.querySelector("#serum1");
+  const add = document.querySelector(".add");
 
   /*hamburger menu pressed that
  will make the menu appear */
@@ -17,6 +18,13 @@ window.addEventListener("load", function () {
       menu.style.display = "block";
     } else {
       menu.style.display = "none";
+    }
+  });
+  shoppingBagIcon.addEventListener("click", function () {
+    if (shoppingBag.style.display == "none") {
+      shoppingBag.style.display = "block";
+    } else {
+      shoppingBag.style.display = "none";
     }
   });
 
@@ -32,17 +40,15 @@ window.addEventListener("load", function () {
     window.location.assign("body_lotion.html");
   });
 
-  shoppingBagIcon.addEventListener("click", function () {
-    if (shoppingBag.style.display == "none") {
-      shoppingBag.style.display = "block";
-    } else {
-      shoppingBag.style.display = "none";
-    }
+  checkout.addEventListener("click", function () {
+    window.location.assign("checkout.html");
   });
+
   chosenSerum.addEventListener("click", function () {
     window.location.assign("clicked_serum.html");
   });
-  checkout.addEventListener("click", function () {
-    window.location.assign("checkout.html");
+
+  add.addEventListener("click", function () {
+    add.innerText = "Added to Shopping Cart";
   });
 });

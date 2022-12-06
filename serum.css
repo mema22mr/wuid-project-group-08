@@ -452,7 +452,7 @@ body {
     overflow: hidden;
     /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
     object-fit: cover;
-    object-position: 30% 50%;
+    object-position: 35% 50%;
   }
   #serum1 {
     width: 173px;
@@ -462,12 +462,10 @@ body {
   #serum2 {
     width: 173px;
     height: 334px;
-    background-color: rgb(173, 30, 30);
   }
   #serum3 {
     width: 173px;
     height: 334px;
-    background-color: rgb(61, 201, 22);
   }
   /* shopping bag*/
   .shoppingBag {

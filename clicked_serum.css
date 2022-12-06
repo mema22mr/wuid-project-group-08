@@ -293,7 +293,7 @@ body {
     overflow-y: scroll;
     margin-right: 0px;
     width: 80vw;
-    height: 800px;
+    height: fit-content;
     overflow: hidden;
     margin-left: 20vw;
     margin-top: 79px;
@@ -318,8 +318,8 @@ body {
 
   .chosenSerumGrid {
     display: grid;
-    grid-template-columns: 50vw 30vw;
-    grid-template-rows: 100vw;
+    grid-template-columns: 45vw 35vw;
+    grid-template-rows: fit-content;
     grid-template-areas: "image information";
   }
   .bigImage {
@@ -333,25 +333,70 @@ body {
     overflow: hidden;
     /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
     object-fit: cover;
-    object-position: 70% 100%;
+    object-position: 20% 100%;
     position: relative;
     top: 25px;
     left: 60px;
   }
   .informationFlex {
     grid-area: information;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blueviolet;
+    margin-right: 29px;
+    color: #6c8875;
+    padding-top: 20px;
   }
+  h21 {
+    font-size: 20px;
+  }
+  .sameline {
+    display: flex;
+    gap: 10px;
+  }
+  .add {
+    width: 270px;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    background-color: #b8cabe;
+    font-weight: bold;
+    border-width: 0px;
+    z-index: 10;
+  }
+
   .itemName {
     height: fit-content;
   }
-  h9 {
+  h15 {
     font-size: 36px;
   }
-  h10 {
+  h16 {
     font-size: 24px;
+  }
+  h17 {
+    font-size: 16px;
+  }
+  h19 {
+    font-size: 50px;
+  }
+
+  .quantityBig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 138px;
+    height: 42px;
+
+    background-color: #b8cabe;
+  }
+  #minusbig {
+    width: 39px;
+  }
+  #plusbig {
+    width: 39px;
+  }
+  h20 {
+    font-size: 33px;
+    color: white;
   }
   /* shopping bag*/
   .shoppingBag {
@@ -364,6 +409,7 @@ body {
     right: 0px;
     position: fixed;
     display: none;
+    z-index: 500;
   }
   .chosenItem {
     display: flex;
