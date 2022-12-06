@@ -7,6 +7,8 @@ window.addEventListener("load", function () {
   const shoppingBagIcon = document.querySelector("#shoppingBagIcon");
   const shoppingBag = document.querySelector(".shoppingBag");
   const checkout = document.querySelector(".checkout");
+  const chosenSerum = document.querySelector("#serum1");
+
   /*hamburger menu pressed that
  will make the menu appear */
   /**why do i have to press 2 times? */
@@ -17,9 +19,7 @@ window.addEventListener("load", function () {
       menu.style.display = "none";
     }
   });
-  checkout.addEventListener("click", function () {
-    window.location.assign("checkout.html");
-  });
+
   serumOnClick.addEventListener("click", function () {
     window.location.assign("serum.html");
   });
@@ -38,5 +38,11 @@ window.addEventListener("load", function () {
     } else {
       shoppingBag.style.display = "none";
     }
+  });
+  chosenSerum.addEventListener("click", function () {
+    window.location.assign("clicked_serum.html");
+  });
+  checkout.addEventListener("click", function () {
+    window.location.assign("checkout.html");
   });
 });
