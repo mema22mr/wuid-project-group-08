@@ -394,7 +394,9 @@ body {
   #topImage {
     width: 80vw;
     position: relative;
-    bottom: 270px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 100% 60%;
   }
 
   .content2 /*quote*/ {
