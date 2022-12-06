@@ -97,6 +97,7 @@ body {
     z-index: 100;
     margin: 0px;
   }
+
   #blText {
     position: absolute;
     z-index: 90;
@@ -372,11 +373,16 @@ body {
     overflow: hidden;
     margin-left: 20vw;
   }
-
+  .blImageBig {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 55%;
+  }
   #blText {
     position: absolute;
     z-index: 90;
-    top: 270px;
+    top: 340px;
     padding-left: 45px;
     padding-right: 45px;
   }
@@ -388,7 +394,7 @@ body {
     background-color: rgb(223, 213, 194);
   }
   h5 {
-    color: rgb(255, 255, 255);
+    color: #6c8875;
     font-size: 90px;
     line-height: 50px;
     margin: 0px;

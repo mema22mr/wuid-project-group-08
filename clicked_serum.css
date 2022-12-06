@@ -351,7 +351,7 @@ body {
     display: flex;
     gap: 10px;
   }
-  .add {
+  .addedToCart {
     width: 270px;
     font-size: 24px;
     font-family: "Times New Roman", Times, serif;

@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
   const shoppingBag = document.querySelector(".shoppingBag");
   const checkout = document.querySelector(".checkout");
   const chosenSerum = document.querySelector("#serum1");
-  const add = document.querySelector(".add");
+  const addedToCart = document.querySelector(".addedToCart");
 
   /*hamburger menu pressed that
  will make the menu appear */
@@ -44,11 +44,11 @@ window.addEventListener("load", function () {
     window.location.assign("checkout.html");
   });
 
-  chosenSerum.addEventListener("click", function () {
-    window.location.assign("clicked_serum.html");
+  addedToCart.addEventListener("click", function () {
+    addedToCart.innerText = "Added to Shopping Cart";
   });
 
-  add.addEventListener("click", function () {
-    add.innerText = "Added to Shopping Cart";
+  chosenSerum.addEventListener("click", function () {
+    window.location.assign("clicked_serum.html");
   });
 });
