@@ -113,6 +113,7 @@ body {
   .content {
     position: relative;
     top: 70px;
+    height: 100vh;
   }
   .checkout {
     text-align: center;
@@ -137,6 +138,65 @@ body {
   a {
     text-decoration: none;
   }
+  .form {
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: -30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input {
+    border-width: 0px;
+
+    background-color: #d8e8dd;
+  }
+  .name {
+    width: 620px;
+  }
+  .other {
+    width: 620px;
+    justify-content: center;
+  }
+  #name {
+    width: 300px;
+    height: 63px;
+  }
+  #surname {
+    width: 300px;
+    height: 63px;
+  }
+  #street {
+    width: 610px;
+    height: 63px;
+    margin-bottom: 10px;
+  }
+  #city {
+    width: 610px;
+    height: 63px;
+    margin-bottom: 10px;
+  }
+  #email {
+    width: 610px;
+    height: 63px;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 300px;
+    height: 70px;
+    justify-self: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #d8e8dd;
+    border-width: 0px;
+    color: white;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+  }
   /*FOOTER*/
   footer {
     background-color: #d8e8dd;
@@ -146,6 +206,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     color: white;
+    position: relative;
+    bottom: -70px;
   }
 
   #regionIcon {
