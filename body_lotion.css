@@ -84,11 +84,22 @@ body {
   /*LAYOUT BODY LOTION PAGE*/
   .contentBlPage {
     overflow-y: scroll;
+    overflow-x: hidden;
   }
   .content1 /*top big image*/ {
     width: 100vw;
     height: 328px;
     overflow: hidden;
+  }
+  .blImageBig {
+    width: 220vw;
+    margin-top: 80px;
+    height: 248px;
+    object-fit: cover;
+    right: 0px;
+    object-position: 100% 55%;
+    position: relative;
+    left: -130px;
   }
   .back {
     position: fixed;
@@ -97,11 +108,14 @@ body {
     z-index: 100;
     margin: 0px;
   }
+  a {
+    text-decoration: none;
+  }
 
   #blText {
     position: absolute;
     z-index: 90;
-    top: 185px;
+    top: 255px;
     padding-left: 45px;
     padding-right: 45px;
   }
@@ -113,16 +127,8 @@ body {
   }
   h6 {
     color: #6c8875;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 18px;
-  }
-
-  #blImage {
-    width: 100vw;
-    height: 300px;
-    top: 80px;
-    position: relative;
-    background-color: rgb(223, 213, 194);
   }
 
   .blItems {
@@ -136,26 +142,31 @@ body {
     color: #6c8875;
   }
   .blItemsImages {
-    width: 173px;
-    height: 334px;
+    width: 130vw;
+    height: 250px;
     overflow: hidden;
+    position: relative;
+    right: 200px;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 100% 60%;
   }
   #bl1 {
     width: 173px;
-    height: 334px;
+    height: 250px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
   }
   #bl2 {
     width: 173px;
-    height: 334px;
+    height: 250px;
     margin-left: 40px;
     margin-right: 40px;
   }
   #bl3 {
     width: 173px;
-    height: 334px;
+    height: 250px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 70px;
@@ -366,6 +377,7 @@ body {
   .contentBlPage {
     overflow-y: scroll;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   .content1 /*top big image*/ {
     width: 80vw;
@@ -386,13 +398,46 @@ body {
     padding-left: 45px;
     padding-right: 45px;
   }
-  #blImage {
-    width: 100vw;
-    height: 500px;
-    top: 70px;
-    position: relative;
-    background-color: rgb(223, 213, 194);
+  /*ITEMS*/
+  .blItems {
+    background-color: white;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    color: #6c8875;
+    margin-left: 20vw;
+    padding-top: 30px;
+    padding-bottom: 100px;
   }
+
+  .bl1 {
+    width: 173px;
+    height: 334px;
+  }
+
+  .bl2 {
+    width: 173px;
+    height: 334px;
+  }
+  .bl3 {
+    width: 173px;
+    height: 334px;
+  }
+
+  #blItemsImages {
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    right: 190px;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 100% 50%;
+  }
+
   h5 {
     color: #6c8875;
     font-size: 90px;
@@ -413,40 +458,6 @@ body {
   }
   a {
     text-decoration: none;
-  }
-  /*ITEMS*/
-  .blItems {
-    background-color: white;
-    width: 80vw;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-    color: #6c8875;
-    margin-left: 20vw;
-    padding-top: 30px;
-    padding-bottom: 100px;
-  }
-  .blItemsImages {
-    width: 173px;
-    height: 334px;
-    overflow: hidden;
-  }
-  #bl1 {
-    width: 173px;
-    height: 334px;
-  }
-
-  #bl2 {
-    width: 173px;
-    height: 334px;
-    background-color: rgb(173, 30, 30);
-  }
-  #bl3 {
-    width: 173px;
-    height: 334px;
-    background-color: rgb(61, 201, 22);
   }
 
   /* shopping bag*/

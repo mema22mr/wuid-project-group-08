@@ -124,7 +124,7 @@ body {
   }
   h6 {
     color: #6c8875;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 18px;
   }
 
@@ -144,7 +144,7 @@ body {
     overflow: hidden;
     /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
     object-fit: cover;
-    object-position: 30% 50%;
+    object-position: 35% 50%;
   }
   #serum1 {
     width: 173px;

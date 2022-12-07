@@ -91,10 +91,14 @@ body {
     height: 300px;
     overflow: hidden;
   }
+
   #topImage {
-    width: 110vw;
+    width: 130vw;
     position: relative;
-    bottom: 110px;
+    left: -60px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 100% 80%;
   }
 
   .content2 /*quote*/ {
@@ -125,17 +129,40 @@ body {
     padding-right: 25px;
     height: 128px;
   }
+  .itemsImages {
+    margin-top: 20px;
+    width: 100px;
+    height: 128px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-color: white;
+  }
+  #item1 {
+    width: 100px;
+    height: 128px;
+  }
+  #item2 {
+    width: 100px;
+    height: 128px;
+  }
+  #item3 {
+    width: 100px;
+    height: 128px;
+  }
   h6 {
     font-size: 30px;
     text-align: center;
   }
 
   .content4 /*advertisement section*/ {
-    height: 344px;
+    height: fit-content;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     color: white;
+    background-color: #cadbcf;
   }
 
   .seasonalItem1 {
@@ -165,17 +192,17 @@ body {
     text-justify: center;
     line-height: 25px;
   }
-  .seasonalItem2 {
+
+  .seasonalImages {
     width: 50vw;
     height: 172px;
-    background-image: url("ai test2.jpg");
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 100% 80%;
+    background-color: white;
   }
 
-  .seasonalItem3 {
-    width: 50vw;
-    height: 172px;
-    background-image: url("ai test2.jpg");
-  }
   .seasonalItem4 {
     width: 50vw;
     height: 172px;
@@ -203,9 +230,13 @@ body {
     flex-wrap: wrap;
   }
 
-  #chosenItem {
-    width: 60px;
-    height: 90px;
+  .chosenItemImage {
+    width: 70px;
+    height: 100px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 25% 80%;
     margin-left: 33px;
     margin-top: 26px;
   }
@@ -430,20 +461,42 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 30px;
     height: 128px;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   h6 {
     font-size: 30px;
     text-align: center;
   }
-
+  .itemsImages {
+    width: 180px;
+    height: 233px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-color: white;
+  }
+  #item1 {
+    width: 180px;
+    height: 233px;
+  }
+  #item2 {
+    width: 180px;
+    height: 233px;
+  }
+  #item3 {
+    width: 180px;
+    height: 233px;
+  }
   .content4 /*advertisement section*/ {
     height: 920px;
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #cadbcf;
     margin-left: 20vw;
     width: 80vw;
   }
@@ -474,16 +527,24 @@ body {
     text-justify: center;
     line-height: 65px;
   }
-  .seasonalItem2 {
+
+  #seasonalItem2 {
     width: 40vw;
     height: 460px;
-    background-image: url("ai test2.jpg");
+  }
+  .seasonalImages {
+    width: 40vw;
+    height: 460px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 100% 80%;
+    background-color: white;
   }
 
   .seasonalItem3 {
     width: 40vw;
     height: 460px;
-    background-image: url("ai test2.jpg");
   }
   .seasonalItem4 {
     width: 40vw;
@@ -509,13 +570,17 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-
-  #chosenItem {
+  .chosenItemImage {
     width: 60px;
     height: 90px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 25% 80%;
     margin-left: 33px;
     margin-top: 26px;
   }
+
   .chosenItemText {
     padding-top: 26px;
     padding-left: 15px;

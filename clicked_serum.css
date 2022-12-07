@@ -81,6 +81,123 @@ body {
   h4 {
     font-size: 20px;
   }
+  /*content*/
+  .content {
+    overflow-y: scroll;
+    margin-right: 0px;
+    width: 100vw;
+    height: fit-content;
+    overflow: hidden;
+
+    margin-top: 79px;
+  }
+  .back {
+    position: fixed;
+    margin-top: -40px;
+    left: -50px;
+    z-index: 100;
+    margin-left: 20vw;
+    display: flex;
+    gap: 15px;
+  }
+  a {
+    text-decoration: none;
+  }
+  h6 {
+    color: #6c8875;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .chosenSerumGrid {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 520px 1fr;
+    grid-template-rows: fit-content;
+    grid-template-areas: "image" "information";
+  }
+  .bigImage {
+    grid-area: image;
+    background-color: white;
+  }
+
+  .serumItemsImages {
+    width: 100vw;
+    height: 473px;
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 45% 100%;
+    position: relative;
+    top: 60px;
+    left: 60px;
+  }
+  .informationFlex {
+    grid-area: information;
+
+    color: #6c8875;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h21 {
+    font-size: 20px;
+  }
+  .sameline {
+    display: flex;
+    gap: 10px;
+  }
+  .addedToCart {
+    width: 350px;
+    height: 50px;
+
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    background-color: #b8cabe;
+    font-weight: bold;
+    border-width: 0px;
+    z-index: 10;
+  }
+
+  .itemName {
+    height: fit-content;
+  }
+  h15 {
+    font-size: 36px;
+  }
+  h16 {
+    font-size: 24px;
+  }
+  h17 {
+    font-size: 16px;
+  }
+  h19 {
+    font-size: 49px;
+  }
+
+  .quantityBig {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 174px;
+    height: 51px;
+
+    background-color: #b8cabe;
+  }
+  #minusbig {
+    width: 39px;
+  }
+  #plusbig {
+    width: 39px;
+  }
+  h20 {
+    font-size: 33px;
+    color: white;
+  }
+
   /* shopping bag*/
   .shoppingBag {
     width: 100vw;
@@ -289,6 +406,8 @@ body {
   h4 {
     font-size: 20px;
   }
+
+  /*content*/
   .content {
     overflow-y: scroll;
     margin-right: 0px;

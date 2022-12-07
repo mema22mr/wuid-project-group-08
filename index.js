@@ -44,11 +44,11 @@ window.addEventListener("load", function () {
     window.location.assign("checkout.html");
   });
 
-  addedToCart.addEventListener("click", function () {
-    addedToCart.innerText = "Added to Shopping Cart";
-  });
-
   chosenSerum.addEventListener("click", function () {
     window.location.assign("clicked_serum.html");
+  });
+
+  addedToCart.addEventListener("click", function () {
+    addedToCart.innerText = "Added to Shopping Cart";
   });
 });

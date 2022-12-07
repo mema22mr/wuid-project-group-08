@@ -98,33 +98,39 @@ body {
     z-index: 100;
     margin: 0px;
   }
+  a {
+    text-decoration: none;
+  }
   #tonerText {
     position: absolute;
     z-index: 90;
-    top: 185px;
-    padding-left: 45px;
+    top: 235px;
+    padding-left: 20px;
     padding-right: 45px;
+    color: #d8e8dd;
   }
   h5 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1px;
     margin: 0px;
   }
   h6 {
-    color: #6c8875;
-    font-size: 15px;
+    color: #d8e8dd;
+    font-size: 25px;
     line-height: 18px;
   }
 
-  #tonerImage {
-    width: 100vw;
-    height: 300px;
-    top: 80px;
+  .bigToner {
+    width: 130vw;
+    margin-top: 80px;
+    height: 248px;
+    object-fit: cover;
     position: relative;
-    background-color: rgb(223, 213, 194);
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    right: 0px;
+    object-position: 100% 50%;
   }
-
   .tonerItems {
     background-color: white;
     width: 100vw;
@@ -139,6 +145,9 @@ body {
     width: 173px;
     height: 334px;
     overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 55% 50%;
   }
   #toner1 {
     width: 173px;
@@ -386,21 +395,27 @@ body {
     padding-left: 45px;
     padding-right: 45px;
   }
-  #tonerImage {
+
+  .bigToner {
     width: 100vw;
+    margin-top: 70px;
     height: 500px;
-    top: 70px;
+    object-fit: cover;
     position: relative;
-    background-color: rgb(223, 213, 194);
+    overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    right: 0px;
+
+    object-position: 100% 60%;
   }
   h5 {
-    color: rgb(255, 255, 255);
+    color: #d8e8dd;
     font-size: 90px;
     line-height: 50px;
     margin: 0px;
   }
   h6 {
-    color: #6c8875;
+    color: #d8e8dd;
     font-size: 25px;
     line-height: 35px;
   }
@@ -433,6 +448,9 @@ body {
     width: 173px;
     height: 334px;
     overflow: hidden;
+    /*the following 2 lines was inspired from https://www.w3schools.com/css/css3_object-fit.asp to make the img proportional*/
+    object-fit: cover;
+    object-position: 55% 10%;
   }
   #toner1 {
     width: 173px;
@@ -442,17 +460,14 @@ body {
   #toner2 {
     width: 173px;
     height: 334px;
-    background-color: rgb(173, 30, 30);
   }
   #toner3 {
     width: 173px;
     height: 334px;
-    background-color: rgb(173, 30, 30);
   }
   #toner4 {
     width: 173px;
     height: 334px;
-    background-color: rgb(61, 201, 22);
   }
 
   /* shopping bag*/
